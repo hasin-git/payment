@@ -10,5 +10,5 @@ public interface BeneficiaryAccountService {
 
 	AccountResponse saveBeneficiary(BeneficiaryAccountDto beneficiaryAccountDto);
 	
-	BeneficiaryDto getBeneficiaryDetailsByAcctNo(Long accountNo);
+	List<BeneficiaryDto> getBeneficiaryDetailsByAcctNo(Long accountNo);
 }
